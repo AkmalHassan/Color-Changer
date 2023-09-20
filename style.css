@@ -1,0 +1,38 @@
+.color-div0{
+    border:solid 2px;
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    margin-top:50px;
+    
+}
+.color-div1{
+    border:solid 2px;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    margin-top:50px;
+    
+}
+.color-div2{
+    border:solid 2px;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    margin-top:50px;
+    
+}
+.color-div3{
+    border:solid 2px;
+    background-color: grey;
+    height: 50px;
+    width: 50px;
+    margin-top:50px;
+    
+}
+body{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+}

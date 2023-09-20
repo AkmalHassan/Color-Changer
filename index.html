@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script>
+      let clr = ["aqua", "red", "green", "grey"];
+      let d1;
+      for (let i = 0; i < clr.length; i++) {
+        let d1 = document.createElement("div");
+        d1.setAttribute(
+          "onclick",
+          `document.querySelector("body").style.background = "${clr[i]}"`
+        );
+        d1.setAttribute("class", `color-div${i}`);
+        document.querySelector("body").appendChild(d1);
+        console.log(d1);
+      }
+    </script>
+  </body>
+</html>
